@@ -1,0 +1,48 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+#header{
+  width: 70%;
+  float: right;
+}
+#main{
+  width: 80%;
+  float: right;
+  background-image:url("IMG_3688.jpg");
+  background-repeat:repeat;
+  background-size:150px;
+}
+#side{
+  width: 15%;
+  float: left;
+}
+#footer{
+  clear: both;
+  width: 100%;
+}
+
+
+
+#side a{
+    display:inline-block;
+    margin-bottom:15px;
+    text-decoration:underline;
+}
+#main a{
+    text-decoration:underline;
+}
+.prof{
+    float:left;
+}
+.info{
+    float:right;
+}
+.dorama{
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    
+}
+.cinema{
+    border-bottom:solid 1px black;
+}
